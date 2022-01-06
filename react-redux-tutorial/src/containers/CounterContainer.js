@@ -38,6 +38,7 @@ export default CounterContainer
 
 // export default connect(mapStateToProps, mapDispatchToProps)(CounterContainer)
 
+// connect 를 사용하면 성능이 최적화 ( useSelector 를 사용할 경우 React.memo 사용 )
 // export default connect(
 //   state => ({
 //     number: state.counter.number,
